@@ -10,7 +10,7 @@ const image = document.getElementById("image")
 
 weatherBtn.addEventListener('click',async()=>{
     if(nameElement.value === ""){
-        warning.textContent = " Please enter location"
+        warning.textContent = "Please enter location"
         return
     }
     warning.textContent = ""
