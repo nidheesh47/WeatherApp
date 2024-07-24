@@ -6,7 +6,7 @@ const apiKey = "2331de054b22f7c32221c1f4261fe008"
 const fetchError = document.getElementById("show-error")
 const warning = document.getElementById("cityName-error")
 const image = document.getElementById("image")
-
+const displayData = document.getElementsByClassName(".display-data")
 
 weatherBtn.addEventListener('click',async()=>{
     if(nameElement.value === ""){
